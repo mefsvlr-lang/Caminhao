@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 *{
     padding: 0;
     margin: 0;
@@ -7,18 +9,31 @@
     font-family: "Noto Sans", sans-serif;
 }
 
+body{
+    background-color: rgb(33, 91, 199);
+    height: 1800px;
+}
+
+:root {
+  --color-1: #101828;
+  --color-2: #1C285A;
+  --color-3: #3B4150;
+  --color-4: #F8FAFC;
+}
+
 .toptopo{
     width: 100%;
     height: 50px;
-    background-color: #2a4142f1;
+    background-color: var(--color-1);
     display: flex;
     align-items: center;
+    color: var(--color-3);
   
 }
 
 .toptopo img{
     height: 80px;
-    margin-left: 980px;
+    margin-left: 870px;
 }
 
 .toptopo img:hover{
@@ -33,10 +48,9 @@
     align-items: center;
     height: 40px;
     width: 15px;
-    background-color: #2a4142f1;
     padding: 10px 50px;
     border-radius: 50px;
-    box-shadow: rgba(0,0,0,0.3);
+
     transition: 0.5s ease-in-out;
     
     
@@ -51,13 +65,13 @@
     font-size: 15px;
     font-weight: 400;
     background-color: transparent;
-    color: cadetblue;
+    color: var(--color-4);
 }
 
 .search-bar i{
     cursor: pointer;
     font-size: 25px;
-    color: cadetblue;
+    color: var(--color-3);
 }
 .search-bar:hover{
     width: 400px;
@@ -70,15 +84,20 @@
     padding: 10px;
     width: 220px;
     height: 50px;
-    background-color: blue;
+    background-color: var(--color-2);
+    color: var(--color-4);
     border-radius:30px;
-  
+    transition: 400ms;
 }
 
 .faleconosco h2{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.faleconosco:hover{
+color: var(--color-3);
 }
 
 .toptopo h2{
@@ -88,7 +107,8 @@
 .topo{
     width: 100%;
     height: 200px;
-    background-color: gray;
+    background-color: var(--color-2);
+    color: var(--color-4);
     display: flex;
     align-items: center;
     font-size: 21px;
@@ -99,9 +119,14 @@
     display:flex;
     align-items: center;
     padding-left: 50px;
-    gap: 40px;
+   
     
     
+}
+
+.logo img{
+    height: 220px;
+    margin-top: -20px;
 }
 
 .content{
@@ -114,12 +139,127 @@
 
 .content h2 a{
     text-decoration: none;
-    color: black;
+    color: var(--color-4);
    
    transition: 400ms;
 }
 
 .content a:hover{
     cursor: pointer;
-    color: #545050;
+    color: var(--color-3);
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ 
+}
+
+.meio1{
+    width: 30%;
+    height: 500px;
+    background-color: var(--color-2);
+    border-radius: 30px;
+   padding: 20px;
+   color:#F8FAFC;
+   font-size: 17px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(0, 0, 22);
+}
+
+.meio1 h2{
+color: var(--color-4);
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.meio2{
+        width: 30%;
+        color: var(--color-4);
+    height: 500px;
+    background-color: var(--color-2);
+    border-radius: 30px;
+    padding: 20px;
+    
+    font-size: 17px;
+    margin-left: 230px;
+ box-shadow: 10px 5px 5px rgb(0, 0, 22);
+}
+
+.meio2 h2{
+    color: var(--color-4);
+    padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.beneficios{
+        margin-top: 200px;
+    background-color:#8e95bd;
+    height: 950px;
+}
+
+.beneficiostexto{
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p1 {
+    padding-top: 100px;
+}   
+
+.cx1{
+    width: 20%;
+    height: 500px;
+    border-radius: 30px;
+     box-shadow: 10px 5px 5px #1c285a69;
+    background-color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding: 20px;
+}
+
+.cx1 img{
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px #1c285a69;
+
+}
+
+.cx1 p{
+    margin-left: 20px;
+}
+
+
+
+.cx2{
+    width: 20%;
+    height: 500px;
+    border-radius: 30px;
+     box-shadow: 10px 5px 5px #1c285a69;
+    background-color: var(--color-2);
+}
+
+.cx3{
+    width: 20%;
+    height: 500px;
+    border-radius: 30px;
+     box-shadow: 10px 5px 5px #1c285a69;
+    background-color: var(--color-2);
+}
+
+.beneficioscx{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
