@@ -222,14 +222,13 @@ padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
 }
 
 .cx1 img{
     width: 300px;
     border-radius: 30px;
-    box-shadow: 10px 5px 5px #1c285a69;
+   
 
 }
 
@@ -240,19 +239,45 @@ padding-bottom: 30px;
 
 
 .cx2{
-    width: 20%;
+        width: 20%;
     height: 500px;
     border-radius: 30px;
      box-shadow: 10px 5px 5px #1c285a69;
     background-color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 20px 20px;
+}
+
+.cx2 img{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.cx2 p{
+    margin-left: 20px;
 }
 
 .cx3{
-    width: 20%;
+        width: 20%;
     height: 500px;
     border-radius: 30px;
      box-shadow: 10px 5px 5px #1c285a69;
     background-color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 20px 20px;
+}
+
+.cx3 img{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.cx3 p{
+    margin-left: 20px;
 }
 
 .beneficioscx{
